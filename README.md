@@ -71,3 +71,51 @@ format_numer(43214124) -> '43,214,124'
 format_numer(1000,'#') -> '1#000'
 
 format_numer(43214124) -> '43#214#124'
+
+## Ejercicio 5
+
+Crear una funcion que pluralice si un elemento se repite en una lista dada como argumento
+
+El resultado tiene que ser un iterable (tuple, lista o set)
+
+**Ejemplos**
+
+pluralize(['apple','peach', 'apple']) -> ['apples','peach'] || ('apples', 'peach') || {'apples', 'peach'}
+
+pluralize(['cat', 'dog', 'cat', 'cat', 'dog', 'rabbit']) -> ['cats','dogs', 'rabbit'] || ('cats', 'dogs', 'rabbit') || {'cats', 'dogs', 'rabbit'}
+
+**Restricciones**
+
+El argumento tiene que ser una lista []
+
+## Ejercicio 6
+
+Crear una funcion que cree cajas basadas en un argumento
+
+**Ejemplos**
+
+make_box(1) 
+[
+    "#"
+]
+
+make_box(2) 
+[
+    "##",
+    "##",
+]
+
+make_box(3) 
+[
+    "###"
+    "# #",
+    "###",
+]
+
+make_box(4) 
+[
+    "####",
+    "#  #",
+    "#  #",
+    "####",
+]
