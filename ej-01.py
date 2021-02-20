@@ -1,18 +1,22 @@
 
 # Función para determinar el largo de un número
-def length_number():
-  number = (input("Ingresa un número: "))
-  def count_characters(number2):
+
+def count_characters(number):
+  assert number >= 0
+  if number == int(number):
     number2 = str(number)
-    result: 0
+    result = 1
     for char in number2:
       result += 1
-    return result
-  print (int(count_characters()))
+      return result
+  else:
+    return None, 'el valor no es un número mayor entero mayor a 0'
+
+count_characters(4321)
 
 #  print(f'El número: {number}','\n', 'Tiene un largo de: ', len(number))
 
-length_number()
+length_number(45)
 
 
 
