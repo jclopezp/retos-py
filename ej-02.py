@@ -3,5 +3,5 @@
 
 # x es un elemento del rango
 def multiplos(a, b):
-    lst = [a * x for x in range(1, b + 1)]
-    return lst
+    lista = [a * x for x in range(1, b + 1)]
+    return lista

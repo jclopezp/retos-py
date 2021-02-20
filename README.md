@@ -47,3 +47,27 @@ Crear una funcion que devuelva el factorial de un numero
 **Tips**
 
 -Investigar que demonios es recursividad
+
+## Ejercicio 4
+Crear una funcion que formatee numeros 😄
+
+**Ejemplos**
+
+format_numer(1000) -> '1,000'
+
+format_numer(43214124) -> '43,214,124'
+
+**Restricciones**
+
+- El argumento no puede ser negativo
+- El argumento deben ser entero
+
+## Ejercicio 4.1
+
+- Agregar el separador que el usuario indique
+
+**Ejemplo**
+
+format_numer(1000,'#') -> '1#000'
+
+format_numer(43214124) -> '43#214#124'
