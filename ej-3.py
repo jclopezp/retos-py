@@ -1,5 +1,6 @@
-def fact(n):
+# donde n = elemento
+def factorial(n):
     if n > 1:
-        return n * fact(n - 1)
+        return n * factorial(n - 1)
     else:
         return 1
